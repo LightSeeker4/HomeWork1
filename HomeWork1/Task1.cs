@@ -9,9 +9,6 @@ namespace HomeWork1
 {
     class Program
     {
-
-
- 
         static void Main(string[] args)
         {
 
@@ -20,19 +17,18 @@ namespace HomeWork1
             //б) используя форматированный вывод;
             //в) используя вывод со знаком $.
 
-            string name = Ask_user("Введите ваше имя: ");
-            string surname = Ask_user("введите вашу фамилию: ");
-            int age = Ask_int_user("введите ваш возраст: ");
-            int height = Ask_int_user("введите ваш рост: ");
-            int weight = Ask_int_user("введите ваш вес: ");
+            string name = Class1.Ask_user("Введите ваше имя: ");
+            string surname = Class1.Ask_user("Введите вашу фамилию: ");
+            int age = Class1.Ask_int_user("Введите ваш возраст: ");
+            int height = Class1.Ask_int_user("Введите ваш рост: ");
+            int weight = Class1.Ask_int_user("Введите ваш вес: ");
 
             //a
             Console.WriteLine("Данные анкеты:\nИмя:" + name + ", Фамилия:" + surname + ", Возраст:" + age + ", Рост:" + height + ", Вес:" + weight);
             //б
-            Console.WriteLine(String.Format("Данные анкеты:\nИмя:{0} Фамилия:{1} Возраст:{2} Рост:{3} Вес:{4}", name, surname, age, height, weight));
+            Console.WriteLine(string.Format("Данные анкеты:\nИмя:{0}, Фамилия:{1}, Возраст:{2}, Рост:{3}, Вес:{4}", name, surname, age, height, weight));
             //в
-            Console.WriteLine($"Данные анкеты:\nИмя:{name}, Фамилия:{surname}, Возраст:{age}, Рос:{height}, Вес:{weight}");
+            Console.WriteLine($"Данные анкеты:\nИмя:{name}, Фамилия:{surname}, Возраст:{age}, Рост:{height}, Вес:{weight}");
         }
-
     }
 }
