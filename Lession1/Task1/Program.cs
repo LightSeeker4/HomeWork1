@@ -20,11 +20,11 @@ namespace HomeWork1
             //б) используя форматированный вывод;
             //в) используя вывод со знаком $.
 
-            string name = Ask_user("Введите ваше имя: ");
-            string surname = Ask_user("введите вашу фамилию: ");
-            int age = Ask_int_user("введите ваш возраст: ");
-            int height = Ask_int_user("введите ваш рост: ");
-            int weight = Ask_int_user("введите ваш вес: ");
+            string name = CLass1.Ask_user("Введите ваше имя: ");
+            string surname = CLass1.Ask_user("введите вашу фамилию: ");
+            int age = CLass1.Ask_int_user("введите ваш возраст: ");
+            int height = CLass1.Ask_int_user("введите ваш рост: ");
+            int weight = CLass1.Ask_int_user("введите ваш вес: ");
 
             //a
             Console.WriteLine("Данные анкеты:\nИмя:" + name + ", Фамилия:" + surname + ", Возраст:" + age + ", Рост:" + height + ", Вес:" + weight);
