@@ -17,7 +17,7 @@ namespace Task2
             int h = Class1.Ask_int_user("Введите ваш рост: ");
             double m = Class1.Ask_int_user("Введите ваш вес: ");
 
-            Console.WriteLine("Индес массы тела = ", m / (h * h));
+            Console.WriteLine("Индекс массы тела = ", m / (h * h));
         }
     }
 }
