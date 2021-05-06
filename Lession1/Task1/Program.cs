@@ -11,7 +11,6 @@ namespace HomeWork1
     {
 
 
- 
         static void Main(string[] args)
         {
             // Алексей Сазонов
@@ -29,7 +28,7 @@ namespace HomeWork1
             //a
             Console.WriteLine("Данные анкеты:\nИмя:" + name + ", Фамилия:" + surname + ", Возраст:" + age + ", Рост:" + height + ", Вес:" + weight);
             //б
-            Console.WriteLine(String.Format("Данные анкеты:\nИмя:{0}, Фамилия:{1}, Возраст:{2}, Рост:{3}, Вес:{4}", name, surname, age, height, weight));
+            Console.WriteLine(string.Format("Данные анкеты:\nИмя:{0}, Фамилия:{1}, Возраст:{2}, Рост:{3}, Вес:{4}", name, surname, age, height, weight));
             //в
             Console.WriteLine($"Данные анкеты:\nИмя:{name}, Фамилия:{surname}, Возраст:{age}, Рост:{height}, Вес:{weight}");
         }
